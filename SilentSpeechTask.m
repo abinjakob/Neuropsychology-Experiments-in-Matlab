@@ -1,8 +1,9 @@
 %% SILENT SPEECH TASK WITH LSL MARKERS
 % ------------------------------------
-% This Shows fixation cross for 1s, then displays "Ka" for 1s.
-% During "Ka", sends an LSL marker with precise flip timestamp.
-% Repeats for 40 trials. ESC exits anytime.
+% This task involves silent speech where the participant silently says certain
+% words that elicit subvocal EMG responses. Shows fixation cross for 1s, then displays 
+% silent speech text ("Ka" or "Pa") for 1s. An LSL marker is sent during
+% the silent speech period.
 
 clear; clc; close all;
 
